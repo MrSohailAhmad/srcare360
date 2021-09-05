@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+:root {
+    --headingtext: #00A6D1;
+    --white: #FFFFFF;
+    --back: #f0e9e9;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--back);
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: transparent;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.sticky {
+    background: rgba(61, 60, 60, 0.61);
+    padding: 15px 90px;
+    margin-top: -2px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.226);
+}
+
+.navbar.navbar-light ul li.nav-item a {
+    color: white;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.navbar.navbar-light ul li.nav-item a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.navbar.navbar-light ul li.nav-item a.srbtn {
+    border: 2px solid var(--white);
+    padding: 4px 20px;
+    font-size: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.navbar.navbar-light ul li.nav-item a.srbtn:hover {
+    background: white;
+    color: black;
+}
+
+
+/* caarousel custom css start */
+
+div.carousel .carousel-item .carousel-caption h3 {
+    text-transform: uppercase;
+    font: bold;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+div.carousel .carousel-item .carousel-caption p {
+    margin-bottom: 5%;
+    padding: 0 50px;
+    text-transform: uppercase;
+}
+
+div.carousel .carousel-item .carousel-caption .srbtn {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+div.carousel .carousel-item .carousel-caption .srbtn:hover {
+    color: black;
+    background: white;
+}
+
+div.carousel .carousel-item .carousel-caption .crbtn {
+    color: black;
+    background: white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/* social media section custom css start here */
+
+.jumbotron.shadow {
+    margin-bottom: 10px;
+}
+
+.container.shadow {
+    background: #fff;
+}
+
+.jumbotron .container.shadow div.heading h4 {
+    color: var(--headingtext);
+    font-size: 25px;
+    font-weight: 750;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.jumbotron .container.shadow div.heading a img {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    margin-bottom: 45px;
+}
+
+.jumbotron .container.shadow div.heading p.text {
+    padding: 0px 10px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+
+/* social media section custom css end here */
+
+
+/* solution section start here */
+
+div.jumbotron .container .solution .heading {
+    color: var(--headingtext);
+    font-size: 25px;
+    font-weight: 750;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+div.jumbotron .container div.bg {
+    background: none;
+}
+
+div.jumbotron .container div.card h4 {
+    color: var(--headingtext);
+    font: bold;
+}
+
+div.jumbotron .container div.card p {
+    font-size: 14px;
+    color: rgb(87, 85, 85);
+}
+
+
+/* solution section end here */
+
+
+/* what we do section start */
+
+div.jumbotron.shad .container.shad h3.heading {
+    color: var(--headingtext);
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+div.jumbotron.shad .container.shad div.text {
+    margin-top: 40px;
+    padding: 0px 60px;
+    line-height: 5px;
+}
+
+div.jumbotron.shad .container.shad p.text {
+    line-height: 20px;
+}
+
+
+/* what we do section end */
+
+
+/* features section start */
+
+div.jumbotron .container h4.heading {
+    color: var(--headingtext);
+    text-transform: uppercase;
+    margin: 40px 0px 90px 0px;
+}
+
+div.jumbotron.show .container div.card {
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+div.jumbotron .container div.card div.card-footer {
+    background: none;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+    div.jumbotron .container div.card {
+        height: 435px;
+    }
+}
+
+div.jumbotron .container div.card img.img {
+    width: 80px;
+    height: 80px;
+    margin: 40px;
+}
+
+
+/* features section end */
+
+
+/* video section start Here */
+section div.video{
+    margin-bottom: -100px;
+}
+section div.jumbotron div.container p.videotext {
+    margin-top: -35px;
+    padding: 0px 50px;
+}
+
+section div.jumbotron div.container div.card {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+section div.jumbotron div.container div.card .card-img-top {
+    border: 2px solid var(--headingtext);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+section div.jumbotron div.container div.card h3.hometext {
+    color: var(--headingtext);
+}
+
+
+/*video section end here*/
+
+
+/* clints section start here */
+
+/*
+section div.clint div.container h4.clinthead {
+    color: var(--headingtext);
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+section div.clint div.container div.card {
+    border: none;
+    background: none;
+    color: var(--headingtext);
+    margin-top: 100px;
+}
+*/
+
+
+/* clint section end here */
+
+
+/* map section start here */
+
+div.map {
+    height: 100vh;
+    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.623), rgba(56, 54, 54, 0.575), rgba(34, 33, 33, 0.048)), url(../../img/map/wp3328609-world-map-black-wallpaper-hd.png);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* map section end here here */
+
+
+/* subscription section start */
+
+section.subs div.jumbotron {
+    background: var(--headingtext);
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+section.subs div.container {
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+section.subs div.container label {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font: bold;
+    letter-spacing: 2px;
+    padding: 10px;
+    line-height: 15px;
+}
+
+section.subs div.container input {
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    color: white;
+    outline: none;
+    background: none;
+}
+
+section.subs div.container button.crbtn {
+    background: #fff;
+    text-transform: uppercase;
+    color: var(--headingtext);
+    border: 2px solid #fff;
+    font-size: 13px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+section.subs div.container button.crbtn:hover {
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+
+/* subscription section end */
+
+
+/* footer section start */
+
+div.bg-footer {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.616)), url(../../img/contact/HD-IP-Banner.png);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.bg-footer div.container h3.footer-text {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+}
+
+div.bg-footer div.container h3.foot-text {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+
+div.bg-footer div.container p.no-text {
+    color: white;
+    font-size: 13px;
+}
+
+div.bg-footer div.container div.line {
+    width: 40%;
+    height: 1px;
+    border: 1px solid white;
+    margin: 20px 0px;
+}
+
+div.bg-footer div.container input.footer-form {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+}
+
+div.bg-footer div.container textarea {
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+}
+
+div.bg-footer div.container button.footer-btn {
+    color: var(--headingtext);
+    background: var(--white);
+    font-weight: bolder;
+    padding: 15px 30px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+div.bg-footer div.container div.footer-form {
+    border: 3px solid white;
+    align-items: center;
+    background: none;
+    padding: 5px;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+/* footer section end */
+
+
+/* //////////////////////////////////////////////// */
+
+
+/* ////////// contect form start ///////////////////////// */
+
+div.jumbotron.footer {
+    background: var(--headingtext);
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* ////////// contect form end ///////////////////////// */
+
+div.carousel .carousel-item .carousel-caption .crbtn:hover {
+    color: white;
+    background: none;
+}
+
+@media (max-width: 514.98px) {
+    div.carousel .carousel-item .carousel-caption div.btns {
+        margin-bottom: -50px;
+    }
+}
+
+@media (max-width: 398.98px) {
+    div.carousel .carousel-item .carousel-caption div.btns {
+        display: none;
+    }
+}
+
+
+/* for subscription section */
+
+@media (max-width: 768.98px) {
+    section.subs div.container button.crbtn {
+        width: 97%;
+    }
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
+
+
+/* 
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
